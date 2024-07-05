@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+body {
+    padding-top: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1A4568;
+}
+
+header {
+	height: 40px;
+
+	
+    z-index: 1; position:fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+.nav-up {
+    top: -50px;
+}
+
+main {
+   
+    height:780px;
+}
